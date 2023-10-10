@@ -76,7 +76,7 @@ def criar_conta(agencia, numero_conta, usuarios, contas):
 
     if usuario:
         print("\n=== Conta criada com sucesso! ===")
-        conta = {"agencia": agencia, "numero_conta": numero_conta, "usuario": usuario}
+        conta = {"agência": agencia, "numero_conta": numero_conta, "usuario": usuario}
         contas.append(conta)
     else:
         print("\n@@@ Usuário não encontrado, fluxo de criação de conta encerrado! @@@")
